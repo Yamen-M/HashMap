@@ -89,6 +89,10 @@ export default class HashMap {
     return this.size;
   };
 
+  cap = () => {
+    return this.capacity
+  }
+
   clear = () => {
     this.capacity = 16;
     this.size = 0;
